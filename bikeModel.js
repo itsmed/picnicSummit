@@ -32,4 +32,4 @@ var BikeSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('bikes', BikeSchema);   
+module.exports = mongoose.model('bikes', BikeSchema);

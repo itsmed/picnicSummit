@@ -1,6 +1,6 @@
 //install modules ===========================
 var express = require('express');
-var app 	= express();
+var app	= express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
@@ -14,7 +14,7 @@ var port = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 
-app.use(express.bodyParser())
+app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 
 //app routes go here
